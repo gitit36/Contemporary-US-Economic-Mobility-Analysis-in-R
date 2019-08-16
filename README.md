@@ -1,6 +1,6 @@
 # Data-Science-report
 
-*Principles of Data Science*
+***Principles of Data Science***
 **Part I.**
 Fivethirtyeight data graphics An R package that provides access to the code and data sets published by FiveThirtyEight https://github.com/fivethirtyeight/data, was just made available to public. The developers, Albert Kim and his colleagues, maintains a webpage for the package fivethirtyeight: https://rudeboybert.github.io/fivethirtyeight/ 
 
