@@ -1,29 +1,30 @@
 # Data-Science-report
 
-Principles of Data Science  
-Part I. Fivethirtyeight data graphics An R package that provides access to the code and data sets published by FiveThirtyEight https://github.com/fivethirtyeight/data, was just made available to public. The developers, Albert Kim and his colleagues, maintains a webpage for the package fivethirtyeight: https://rudeboybert.github.io/fivethirtyeight/ 
+*Principles of Data Science*
+**Part I.**
+Fivethirtyeight data graphics An R package that provides access to the code and data sets published by FiveThirtyEight https://github.com/fivethirtyeight/data, was just made available to public. The developers, Albert Kim and his colleagues, maintains a webpage for the package fivethirtyeight: https://rudeboybert.github.io/fivethirtyeight/ 
 
 The data sets included are massive. You can find a list of these, including the URLs to the original fivethirtyeight.com articles, at https://rudeboybert.github.io/fivethirtyeight/articles/fivethirtyeight.html. The task (Part I) is to choose one of the articles with data graphics, and recreate one or more of the data graphics found in the article. Examples of such report can be found at https://rudeboybert.github.io/fivethirtyeight/articles/ 
 
-The report will consist of 
+**The report will consist of**
 1. A technical discussion of your data wrangling-visualization statements; 
 2. A brief paragraph explaining the context of the data graphic you created, and be prepared by R markdown.   
 
-Part II. Retreive, explore, and analyze 
+**Part II. Retreive, explore, and analyze**
 This part of the task is to retreive, explore, and analyze data in one of the topic areas. You will need to choose one from American Time Use Survey Data and Economic Mobility data (see below). 
 
-Scope of the work The final product will consist of 
+**Scope of the work The final product will consist of**
 1. visualization or tabulation of the data (from either exploring or modeling), 
 2. results of statistic tests for your hypothesis, 
 3. and modeling and predictions from statistical learning methods.  
 
-Report 
+**Report**
 The report consists of 
 1. Proposed goals in your progress report, 
 2. Analysis (both code chunks and results), 
 3. Interpretation,  
 
-Economic Mobility data 
+**Economic Mobility data**
 We will look at economic mobility across generations in the contemporary USA. The data come from a large study1, based on tax records, which allowed researchers to link the income of adults to the income of their parents several decades previously. For privacy reasons, we don’t have that individual-level data, but we do have aggregate statistics about economic mobility for several hundred communities, containing most of the American population, and covariate information about those communities. We are interested in predicting economic mobility from the characteristics of communities. 
 Data can be read using the following R code. There are 741 communities (observations) and 43 variables. 
 dat &lt;- read.csv("mobility.csv")  
