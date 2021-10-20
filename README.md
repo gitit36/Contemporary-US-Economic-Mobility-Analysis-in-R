@@ -1,7 +1,9 @@
 # Data-Science-report
 
 ***Principles of Data Science from a Statistical Point of View*** 
+
 ***ISP 2019*** 
+
 ***Professor Sungkyu Jung*** 
 
 **Part I**
